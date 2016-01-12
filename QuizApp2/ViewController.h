@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+-(IBAction)answer1:(id)sender;
+-(IBAction)answer2:(id)sender;
+@property(nonatomic,weak) IBOutlet UITextView *tv;
+@property(nonatomic,weak) IBOutlet UILabel *textLabel1;
+@property(nonatomic,weak) IBOutlet UILabel *textLabel2;
+@property(nonatomic,weak) IBOutlet UILabel *textLabel4;
 @end
 

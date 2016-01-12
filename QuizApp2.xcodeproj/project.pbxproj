@@ -13,6 +13,10 @@
 		82094D831C417490003C5AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82094D811C417490003C5AE9 /* Main.storyboard */; };
 		82094D851C417490003C5AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82094D841C417490003C5AE9 /* Assets.xcassets */; };
 		82094D881C417490003C5AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82094D861C417490003C5AE9 /* LaunchScreen.storyboard */; };
+		82094D901C41749A003C5AE9 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 82094D8F1C41749A003C5AE9 /* maru.png */; };
+		82094D921C4174AF003C5AE9 /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 82094D911C4174AF003C5AE9 /* batsu.png */; };
+		82094D941C454299003C5AE9 /* maru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82094D931C454299003C5AE9 /* maru.mp3 */; };
+		82094D961C4542D4003C5AE9 /* batu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82094D951C4542D4003C5AE9 /* batu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		82094D841C417490003C5AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82094D871C417490003C5AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82094D891C417490003C5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82094D8F1C41749A003C5AE9 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
+		82094D911C4174AF003C5AE9 /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batsu.png; sourceTree = "<group>"; };
+		82094D931C454299003C5AE9 /* maru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maru.mp3; sourceTree = "<group>"; };
+		82094D951C4542D4003C5AE9 /* batu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 		82094D781C417490003C5AE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82094D951C4542D4003C5AE9 /* batu.mp3 */,
+				82094D931C454299003C5AE9 /* maru.mp3 */,
+				82094D911C4174AF003C5AE9 /* batsu.png */,
+				82094D8F1C41749A003C5AE9 /* maru.png */,
 				82094D791C417490003C5AE9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,9 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82094D921C4174AF003C5AE9 /* batsu.png in Resources */,
+				82094D901C41749A003C5AE9 /* maru.png in Resources */,
+				82094D961C4542D4003C5AE9 /* batu.mp3 in Resources */,
 				82094D881C417490003C5AE9 /* LaunchScreen.storyboard in Resources */,
 				82094D851C417490003C5AE9 /* Assets.xcassets in Resources */,
 				82094D831C417490003C5AE9 /* Main.storyboard in Resources */,
+				82094D941C454299003C5AE9 /* maru.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
